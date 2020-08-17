@@ -4,24 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://i.imgur.com/PmmSi9l.png">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Cristhian N&uacute;&ntilde;ez</title>
 </head>
-<style>
-    body{
-        background: gray;
-    }
-</style>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="header__logo">
                 <img src="https://i.imgur.com/Q2tWVIb.png" alt="logo de la pagina" width="150px">
             </figure>
-            <nav>
+            <nav class="header__menu">
                 <ol>
-                    <li><a href="#portafolio">Portafolio</a></li>
-                    <li><a href="#eventos">Experiencia</a></li>
-                    <li><a href="#contacto">Trabajemos Juntos</a></li>
+                    <li><a class="header__link" href="#portafolio">Portafolio</a></li>
+                    <li><a class="header__link" href="#eventos">Experiencia</a></li>
+                    <li><a class="header__link" href="#contacto">Trabajemos Juntos</a></li>
     
                 </ol>
             </nav>
@@ -29,42 +25,44 @@
 
     </header>
 
-    <section>
+    <section class="hero">
         <h1>
         Hola! soy <strong>Cristhian N&uacute;&ntilde;ez</strong>  <br/> Un <strong>Desarrollador Web</strong> <br/><strong>Entusiasta</strong> y <strong>Apasionado</strong> 
         </h1>
         <img src="https://i.imgur.com/CxPYcF3.jpg" alt="foto" width="500px" alt="imagen de usuario">   
     </section>
 
-    <section id="portafolio">
+    <section id="portafolio" class="portfolio">
         <h2>Portafo(Proyectos destacados)</h2>
-        <article>
+        <article class="portfolio__project">
             <h3>Platzi Video</h3>
             <h6>React Native / React</h6>
-            <p><small><strong>fecha:</strong> D / M / Y</small></p>
-            <p><small><strong>puedes ver en: </strong> www.platzi.com/native</small></p>
-            <p>Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma</p>
-            <img src="https://i.imgur.com/P2Fpevd.png" alt="proyecto platzi video" width="500">
+            <p class="portfolio__project--date"><small><strong>fecha:</strong> D / M / Y</small></p>
+            <p class="portfolio__project--url"><small><strong>puedes ver en: </strong> www.platzi.com/native</small></p>
+            <p class="portfolio__project--description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma</p>
+            <figure class="portfolio__project--containerImg">
+                <img class="portfolio__project--img"src="https://i.imgur.com/P2Fpevd.png" alt="proyecto platzi video" width="500">
+            </figure>
         </article>
     </section>
     
-    <section id="eventos">
+    <section id="eventos" class="events">
         <h2>Mas sobre mi Experiencia</h2>
-        <article>
-            <figure>
+        <article class="events__container">
+            <figure class="events__container--img">
                 <img src="https://i.imgur.com/21Wl0S3.jpg" alt="imagen de conferencia" width="500">
             </figure>
             <h3>CONFERENCIA</h3>
-            <p>El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
-            <a href="https://www.youtube.com/watch?v=mvt0ABanNco" target="_blank">ver platica</a>
+            <p class="events__container--description">El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
+            <a class="events__container--link" href="https://www.youtube.com/watch?v=mvt0ABanNco" target="_blank">ver platica</a>
         </article>
 
     </section>
     <section id="contacto">
-        <form action="">
-            <h1>&iquest;CREAMOS ALGO JUNTOS?</h1>
-            <input type="text" placeholder="Dejame tu email">
-            <button>ENVIAR</button>
+        <form action="" class="form__mail">
+            <h1 class="form__mail--title">&iquest;CREAMOS ALGO JUNTOS?</h1>
+            <input class="form__mail--input" type="text" placeholder="Dejame tu email">
+            <button class="form__mail--button">ENVIAR</button>
         </form>
     </section>
 
