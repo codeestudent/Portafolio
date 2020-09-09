@@ -27,6 +27,7 @@ body{
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Fjalla One', sans-serif;
+    margin-top: 0;
 } 
 h1{
     margin: 0;
@@ -39,10 +40,18 @@ h1{
 h1 strong{
     color: lightblue;
 }
+.portfolio{
+    background-color: #fafafa;
+}
 .portfolio__project{
     border: solid black 2px;
     border-radius: 20px;
-    margin: 20px 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    
 }
 .portafolio__project--container{
     width: 500px;
