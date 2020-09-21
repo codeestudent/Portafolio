@@ -2,28 +2,63 @@ body{
     margin: 0;
     background: white;
     font-family: 'Alata', sans-serif;
+    background-color: #999999;
 }
 .header{
     background-color: gray;
     color: white;
-}
-.header a{
-    color: white;
-    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
 }
 .header__logo{
     margin: 0;
-}.header__menu ol{
-    margin: 0;
+    height: inherit;
+    display: flex;
+    align-items: center;
+
 }
+.header__logo img{
+    height: inherit;
+    width: 200px;
+}
+.header__menu{
+    height: inherit;
+}
+.header__menu ol{
+    margin: 0;
+
+    padding: 0;
+    display: flex;
+
+    height: inherit;
+}
+.header__menu ol li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.header__menu a{
+    color: white;
+    text-decoration: none;
+    height: 20px;
+    padding: 0px 10px;
+}
+
 .hero{
     color: white;
     height: 300px;
-    background-color: gray;
+    background-color: #999999;
     background-image: url("https://i.imgur.com/kHB38sc.jpg");
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Fjalla One', sans-serif;
@@ -40,22 +75,148 @@ h1{
 h1 strong{
     color: lightblue;
 }
+h2{
+    color: white;
+    text-transform: uppercase;
+}
 .portfolio{
-    background-color: #fafafa;
+    background-color: #999999;
+    padding: 20px;
 }
 .portfolio__project{
     border: solid black 2px;
-    border-radius: 20px;
-    margin: 10px;
+    border-radius: 20px;   
     margin-bottom: 20px;
     padding: 20px;
     background: white;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     
 }
 .portafolio__project--container{
     width: 500px;
 }
+.portafolio__project--container h3{
+    font-size: 30px;
+}
+.portfolio__project--date,
+.portfolio__project--url,
+.portfolio__project h6{
+    margin: 10px 0px;
+}
+.portfolio__project--description{
+    font-size: 20px;
+}
 .portfolio__project--containerImg{
     width: 500px;
+}
+
+.footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.footer img{
+    vertical-align: middle;
+}
+
+#segundo-titulo{
+    margin-left: 10px;
+}
+
+.events{
+    background-color: #999999;
+    display: flex;
+    margin-bottom: 30px;
+}
+.events__container{
+    background-color: #f4fbff;
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    
+ 
+}
+.events__container--img{
+    margin: 0;
+}
+.events__container--img img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+.event__container--section{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+.events__container--description{
+    text-align: left;
+}
+.events__container--link{
+    border: solid #056fff 1px;
+    padding: 10px 20px;
+    color: #056fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#contacto{
+    background-color: #056fff;
+    padding: 20px;
+    height: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form__mail--title{
+    font-size: 30px;
+}
+.form__mail--input{
+    border: gray 1px solid;
+    padding: 5px 35px;
+    border-radius: 5px;
+    background-image: url("https://i.imgur.com/feabyr6.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10px;
+
+}
+
+.contacto__social{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+   
+}
+.contacto__social.facebook{
+    width: 50px;
+    height: 50px;
+}
+.contacto__social.github{
+    width: 50px;
+    height: 50px;
+}
+.contacto__social.instagram{
+    width: 50px;
+    height: 50px;
+}
+.form__mail--button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 30px;
+    border: white 1px solid;
+    border-radius: 5px;
 }
