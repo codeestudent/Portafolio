@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+}
+.container {
+    display: inherit;
+    width: 50vw;
+    justify-content: flex-end;
+    height: auto;
+}
+.container--list {
+    display: inherit;
+    list-style: none;
+    align-items: center;
+    height: 10vh;
+}
+.container--list__item {
+    margin-right: 18px;
+}
+.container--list__item a {
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+#cuenta {
+    width: 35px;
+    height: 35px;
+    border: transparent;
+    border-radius: 100%;
+    background-image: url(./pics/user.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+    margin-right: 10px;
+}
+#apps {
+    width: 15px;
+    height: 15px;
+    background-image: url(./pics/punto.png);
+    background-repeat: space;
+    background-size: 4px;
+    border: transparent;
+}
+
+
+
+
+main {
+    width: 100%;
+    height: auto;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+    
+}
+.logo{
+    margin-top: 100px;
+    width: 25%;
+    height: auto;
+}
+.logo img {
+    width: 100%;
+}
+.form {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.form--label {
+    width: 600px;
+    height: auto;
+}
+#buscador {
+    width: 100%;
+    height: 35px;
+    border: #DAE0E7 2px solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+.form--button {
+    display: inherit;
+    justify-content: center;
+    width: 400px;
+}
+.form--button__item {
+    width: auto;
+    margin: 0 20px;
+}
+#suerte, #buscar-google {
+    width: 140px;
+    border: transparent;
+    color: gray;
+    height: 30px;
+}
+
+
+footer {
+    width: 100%;
+    height: 15vh;
+    background-color: #F3F5F7;
+}
+.footer-container {
+    width: 100%;
+    height: 48%;
+    border-top: #DAE0E7 solid 1px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center ;
+}
+.footer-container p {
+    color: gray;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+.footer--container--section{
+    height: 100%;
+    display: inherit;
+    align-items: center;
+
+}
+.footer--container--list {
+    display: flex;
+    width: auto;
+    list-style: none;
+    
+}
+.footer--container--list li {
+    margin: 0 10px;
+}
+.footer--container--list a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: gray;
+}
