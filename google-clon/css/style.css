@@ -45,6 +45,59 @@ header .nav {
     height: 25px;
     border-radius: 50%;
 }
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+.main--logo {
+    width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+.main--logo img {
+    width: 272px;
+}
+.main--input__container {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 100px;
+    border: #dfe1e5 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.main--input__container input {
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+
+}
+.main--input__container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border #dfe1e500; 
+}
+.serch-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 10px;
+}
+.micro--icon {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
 
 
 
@@ -53,5 +106,32 @@ header .nav {
 
 
 @media (min-width: 600px){
+    .main--logo {
+        width: 530px;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    .main--logo img {
+        width: 272px;
+    }
+    .main--input {
+        width: 530px;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    .main--input__container {
+        width: 520px;
+        border-radius: 100px;
+        border: #dfe1e5 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main--input__container input {
+        width: 80;
+        height: 40px;
+        border: none;
+        outline: none;
+    }
 
 }
