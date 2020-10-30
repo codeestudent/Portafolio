@@ -1,0 +1,220 @@
+* {
+    /* border: red 1px solid; */
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.header--containerImg {
+    width: 60px;
+    height: 55px;
+    display: inherit;
+}
+.header--containerImg img {
+    width: 100%;
+}
+.header--containerTitle {
+    font-size: 1.3rem;
+    text-align: center;
+}
+.header--containerTitle__logo {
+    width: 180px;
+    height: 30px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-46c49284.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: -256px;
+}
+.header--containerTitle strong {
+    font-size: 3rem;
+    font-stretch: ultra-expanded;
+}
+.header--containerTitle h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+}
+
+/* Main */
+
+main {
+    width: auto;
+    height: auto;
+}
+.main--serch {
+    width: 95vw;
+    height: 377px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 2fr repeat(4, 3fr);
+    margin: 0 auto;
+}
+.main--serch__container {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main--serch__container input {
+    width: 85%;
+    height: 48px;
+    border: 1px solid #a2a9b1;
+}
+.main--serch__container a {
+    width: 60px;
+    height: 50px;
+    background-color: #3366cc;
+    background-image: url("https://i.imgur.com/Y4274wW.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+.main--article {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #474a4e;
+    font-family: 'Cormorant Garamond', serif;
+}
+.main--article a {
+    color: #3366cc;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+.main--article__span {
+    text-align: center;
+}
+.main--article__span span {
+    display: inline-block;
+}
+.main--article__span p {
+    display: inline-block;
+}
+
+.main--button {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.main--button__lenguage {
+    width: 265px;
+    height: 35px;
+    color: #3366cc;
+    border: #a2a9b1 solid 1px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.main--button__lenguage i {
+    width: 10px;
+    height: 10px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-46c49284.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: -270px;
+}
+
+.main--wiki {
+    width: 100%;
+    height: auto;
+}
+.main--wiki__article {
+    width: 90vw;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #474a4e;
+}
+.wiki--article__img {
+    width: 40px;
+    height: 55px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-46c49284.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: -200px;
+}
+.main--links {
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.main--links__item {
+    height: 70px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main--links__img {
+    width: 65px;
+    height: 40px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-46c49284.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: -86px;
+}
+.main--links__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5px;
+}
+.main--links__item div a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #3366cc;
+}
+.main--links__item div p {
+    font-size: 1.4rem;
+}
+.main--app {
+    width: 90vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    margin: 0 auto;
+}
+.main--app__title {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main--app__titleImg {
+    width: 50px;
+    height: 56px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-46c49284.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: -715px;
+}
+.main--app__title h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
