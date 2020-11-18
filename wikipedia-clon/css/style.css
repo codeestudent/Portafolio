@@ -54,7 +54,7 @@ main {
     height: 377px;
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: 2fr repeat(4, 3fr);
+    grid-template-rows: repeat(5, 3fr) 2fr;
     margin: 0 auto;
 }
 .main--serch__container {
@@ -189,7 +189,7 @@ main {
     font-size: 1.4rem;
 }
 .main--app {
-    width: 90vw;
+    width: 95vw;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -217,4 +217,34 @@ main {
 .main--app__title h3 {
     font-size: 1.6rem;
     font-weight: bold;
+}
+.main--app__text {
+    width: 95%;
+}
+.main--app__text p {
+    font-size: 1.3rem;
+    text-align: center;
+}
+.main--app__stores {
+    margin-top: 20px;
+    width: 90%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+}
+.main--app__storeOne {
+    width: 129px;
+    height: 37px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-46c49284.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: -541px;
+}
+.main--app__storeTwo {
+    width: 111px;
+    height: 37px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-46c49284.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: -579px;
 }

@@ -1,0 +1,78 @@
+.header--containerImg {
+    width: 0;
+    height: 0;
+}
+.main--serch {
+    width: 550px;
+    height: 380px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.main--serch__container {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    margin: 0 30px;
+}
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-left: 50px;
+}
+.box2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    margin-right: 40px;
+}
+.box3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+}
+.box4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    margin-right: 40px;
+}
+.box5 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    margin-left: 50px;
+}
+.box6 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    margin-right: 50px;
+}
+.box7 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    margin-left: 40px;
+}.box8 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+}.box9 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    margin-left: 40px;
+}.box10 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    margin-right: 50px;
+}
+.planet {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 20px;
+}
